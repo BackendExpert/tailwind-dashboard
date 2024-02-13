@@ -2,6 +2,13 @@ import IonIcon from "@reacticons/ionicons"
 import React from "react"
 
 const Dashboard = () => {
+
+    const menus = [
+        {name: "Dashboard", link: "/", icon: "menu"},
+        {name: "Dashboard", link: "/", icon: "menu"},
+        {name: "Dashboard", link: "/", icon: "menu"},
+        {name: "Dashboard", link: "/", icon: "menu"},
+    ]
   return (
     <div className="flex gap-6">
         <div className="bg-gray-800 min-h-screen w-72 text-white px-4">
