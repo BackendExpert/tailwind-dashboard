@@ -15,7 +15,7 @@ const Dashboard = () => {
     const [menuopen, OpenMenu] = useState(true);
     
   return (
-    <div className="flex gap-6">
+    <div className="flex">
         <div className={`bg-gray-800 min-h-screen ${menuopen? 'w-72' : 'w-16'} duration-500 text-white px-4`}>
             <div className="py-3 flex justify-end md:visible invisible" onClick={() => OpenMenu(!menuopen)}>
                 <IonIcon name="menu" size="large"></IonIcon>
@@ -31,10 +31,6 @@ const Dashboard = () => {
                 ))
             }
 
-
-        </div>
-        <div className="p-7 text-2xl font-semibold flex-1 h-screen">
-            <h1>Home Page</h1>
         </div>
     </div>
   )
