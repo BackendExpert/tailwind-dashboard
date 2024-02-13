@@ -1,4 +1,5 @@
 import IonIcon from "@reacticons/ionicons"
+import { useState } from "react";
 import { Link } from "react-router-dom"
 
 
@@ -9,7 +10,10 @@ const Dashboard = () => {
         {name: "Messages", link: "/Dashboard", icon: "mail"},
         {name: "Saved", link: "/Dashboard", icon: "heart"},
         {name: "Setting", link: "/Dashboard", icon: "settings"},
-    ]
+    ];
+
+    const [menuopen, OpenMenu] = useState(true);
+    
   return (
     <div className="flex gap-6">
         <div className="bg-gray-800 min-h-screen w-72 text-white px-4">
