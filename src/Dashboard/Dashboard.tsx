@@ -17,7 +17,7 @@ const Dashboard = () => {
             </div>
             {
                 menus?.map((menus, i) => (
-                    <Link to={menus?.link} key={i}>
+                    <Link to={menus?.link} key={i} className="flex item-center text-sm gap-2 font-md p-2">
                         <div className="mt-4 flex flex-col pag-4 relative">
                             <div><IonIcon name={menus?.icon}></IonIcon></div>
                             <h2>{menus?.name}</h2>
