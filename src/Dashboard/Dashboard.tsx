@@ -5,8 +5,8 @@ import { Link } from "react-router-dom"
 const Dashboard = () => {
     const menus = [
         {name: "Dashboard", link: "/Dashboard", icon: "speedometer"},
-        {name: "Dashboard", link: "/Dashboard", icon: "people"},
-        {name: "Dashboard", link: "/Dashboard", icon: "search"},
+        {name: "Users", link: "/Dashboard", icon: "people"},
+        {name: "Messages", link: "/Dashboard", icon: "mail"},
         {name: "Dashboard", link: "/Dashboard", icon: "arrow-forward"},
     ]
   return (
@@ -19,7 +19,7 @@ const Dashboard = () => {
                 menus?.map((menus, i) => (
                     <Link to={menus?.link} key={i} className="flex item-center text-xl gap-2 p-2 duration-500 hover:bg-gray-700 rounded">
                         <div className="my-2 flex gap-4 relative font-mono">
-                            <div className="pr-4 pt-[2px]"><IonIcon name={menus?.icon}></IonIcon></div>
+                            <div className="pl-2 pr-4 pt-[2px]"><IonIcon name={menus?.icon}></IonIcon></div>
                             <h2>{menus?.name}</h2>
                         </div>
                     </Link>
