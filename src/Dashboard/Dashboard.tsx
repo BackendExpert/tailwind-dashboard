@@ -19,7 +19,7 @@ const Dashboard = () => {
             {
                 menus?.map((menus, i) => (
                     <Link to={menus?.link} key={i}>
-                        <div className="mt-4 flex lflex-col pag-4 relative">
+                        <div className="mt-4 flex flex-col pag-4 relative">
                             <div><IonIcon name={menus?.icon}></IonIcon></div>
                             <h2>{menus?.name}</h2>
                         </div>
