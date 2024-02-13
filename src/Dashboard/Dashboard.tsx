@@ -6,8 +6,8 @@ const Dashboard = () => {
     <div className="flex">
         <SideBar />
 
-        <div className="">
-            <h1 className="font-semibold">Dashboard</h1>
+        <div className="px-8 my-8">
+            <h1 className="font-semibold text-4xl">Dashboard</h1>
         </div>
     </div>
   )
