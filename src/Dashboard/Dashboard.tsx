@@ -22,10 +22,10 @@ const Dashboard = () => {
             </div>
             {
                 menus?.map((menus, i) => (
-                    <Link to={menus?.link} key={i} className="flex item-center text-xl gap-2 py-2 duration-500 hover:bg-gray-700 rounded">
+                    <Link to={menus?.link} key={i} className={`flex item-center text-xl gap-2 py-2 duration-500 ${!menuopen? 'hover:bg-gray-700 rounded':'hover:none'}`}>
                         <div className="my-2 flex gap-4 relative font-mono">
                             <div className="pl-2 pr-4 pt-[2px]"><IonIcon name={menus?.icon}></IonIcon></div>
-                            <h2>{menus?.name}</h2>
+                            <h2 className={`whitespace-pre duration-500 ${!}`}>{menus?.name}</h2>
                         </div>
                     </Link>
                 ))
