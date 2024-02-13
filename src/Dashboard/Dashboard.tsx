@@ -4,12 +4,11 @@ import { Link } from "react-router-dom"
 
 
 const Dashboard = () => {
-
     const menus = [
         {name: "Dashboard", link: "/", icon: "menu"},
         {name: "Dashboard", link: "/", icon: "menu"},
-        {name: "Dashboard", link: "/", icon: "menu"},
-        {name: "Dashboard", link: "/", icon: "menu"},
+        {name: "Dashboard", link: "/", icon: "search"},
+        {name: "Dashboard", link: "/", icon: "arrow-forward"},
     ]
   return (
     <div className="flex gap-6">
@@ -21,12 +20,11 @@ const Dashboard = () => {
                 menus?.map((menus, i) => (
                     <Link to={menus?.link} key={i}>
                         <div className="mt-4 flex lflex-col pag-4 relative">
-                            <div>{React.createElement(menus?.icon, {size: "large"})}</div>
-                            <h2>Dashboard</h2>
+                            <div><IonIcon name={menus?.icon}></IonIcon></div>
+                            <h2>{menus?.name}</h2>
                         </div>
                     </Link>
                 ))
-
             }
 
 
