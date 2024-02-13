@@ -1,5 +1,4 @@
 import IonIcon from "@reacticons/ionicons"
-import React from "react"
 import { Link } from "react-router-dom"
 
 
