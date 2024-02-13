@@ -1,12 +1,12 @@
 import { BrowserRouter, Route, Routes } from "react-router-dom";
-import Dashboard from "./Dashboard/Dashboard";
+import SideBar from "./Sidebar/SideBar";
 
 
 export default function App() {
   return (
     <BrowserRouter>
       <Routes>
-        <Route path="/Dashboard" element={<Dashboard/>}></Route>
+        <Route path="/Dashboard" element={<SideBar/>}></Route>
       </Routes>
     </BrowserRouter>
   )
