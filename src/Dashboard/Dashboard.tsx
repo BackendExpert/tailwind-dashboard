@@ -4,7 +4,7 @@ import { Link } from "react-router-dom"
 
 const Dashboard = () => {
     const menus = [
-        {name: "Dashboard", link: "/Dashboard", icon: "menu"},
+        {name: "Dashboard", link: "/Dashboard", icon: "speedometer"},
         {name: "Dashboard", link: "/Dashboard", icon: "people"},
         {name: "Dashboard", link: "/Dashboard", icon: "search"},
         {name: "Dashboard", link: "/Dashboard", icon: "arrow-forward"},
