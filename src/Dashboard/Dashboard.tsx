@@ -1,3 +1,5 @@
+import IonIcon from "@reacticons/ionicons"
+
 const Dashboard = () => {
   return (
     <div className="flex">
