@@ -4,10 +4,10 @@ import { Link } from "react-router-dom"
 
 const Dashboard = () => {
     const menus = [
-        {name: "Dashboard", link: "/", icon: "menu"},
-        {name: "Dashboard", link: "/", icon: "menu"},
-        {name: "Dashboard", link: "/", icon: "search"},
-        {name: "Dashboard", link: "/", icon: "arrow-forward"},
+        {name: "Dashboard", link: "/Dashboard", icon: "menu"},
+        {name: "Dashboard", link: "/Dashboard", icon: "menu"},
+        {name: "Dashboard", link: "/Dashboard", icon: "search"},
+        {name: "Dashboard", link: "/Dashboard", icon: "arrow-forward"},
     ]
   return (
     <div className="flex gap-6">
