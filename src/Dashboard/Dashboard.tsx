@@ -21,7 +21,7 @@ const Dashboard = () => {
                 menus?.map((menus, i) => (
                     <Link to={menus?.link} key={i}>
                         <div className="mt-4 flex lflex-col pag-4 relative">
-                            <div className="">{React.createElement(menus?.icon, {size: "large"})}</div>
+                            <div>{React.createElement(menus?.icon, {size: "large"})}</div>
                             <h2>Dashboard</h2>
                         </div>
                     </Link>
