@@ -17,12 +17,18 @@ const Dashboard = () => {
             <div className="py-3 flex justify-end">
                 <IonIcon name="menu" size="large"></IonIcon>
             </div>
-            <Link>
-                <div className="mt-4 flex lflex-col pag-4 relative">
-                    <div className=""></div>
-                    <h2>Dashboard</h2>
-                </div>
-            </Link>
+            {
+                menus?.map((menus, i) => (
+                    <Link to={menus?.link} key={i}>
+                        <div className="mt-4 flex lflex-col pag-4 relative">
+                            <div className="">{React.createElement(menus?.icon, {size: "large"})}</div>
+                            <h2>Dashboard</h2>
+                        </div>
+                    </Link>
+                ))
+
+            }
+
 
         </div>
         <div className="p-7 text-2xl font-semibold flex-1 h-screen">
