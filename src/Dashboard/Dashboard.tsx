@@ -17,8 +17,8 @@ const Dashboard = () => {
             </div>
             {
                 menus?.map((menus, i) => (
-                    <Link to={menus?.link} key={i} className="flex item-center text-xl gap-2 p-2">
-                        <div className="mt-4 flex pag-4 relative">
+                    <Link to={menus?.link} key={i} className="flex item-center text-xl gap-2 p-2 duration-500 hover:bg-gray-600 rounded">
+                        <div className="my-2 flex gap-4 relative font-mono">
                             <div className="pr-4 pt-[2px]"><IonIcon name={menus?.icon}></IonIcon></div>
                             <h2>{menus?.name}</h2>
                         </div>
