@@ -5,7 +5,7 @@ const Dashboard = () => {
     <div className="flex gap-6">
         <div className="bg-gray-800 min-h-screen w-72 text-white px-4">
             <div className="py-3 flex justify-end">
-
+                <IonIcon name="menu"></IonIcon>
             </div>
         </div>
         <div className="p-7 text-2xl font-semibold flex-1 h-screen">
