@@ -7,7 +7,8 @@ const Dashboard = () => {
         {name: "Dashboard", link: "/Dashboard", icon: "speedometer"},
         {name: "Users", link: "/Dashboard", icon: "people"},
         {name: "Messages", link: "/Dashboard", icon: "mail"},
-        {name: "Dashboard", link: "/Dashboard", icon: "arrow-forward"},
+        {name: "Saved", link: "/Dashboard", icon: "heart"},
+        {name: "Setting", link: "/Dashboard", icon: "mail"},
     ]
   return (
     <div className="flex gap-6">
