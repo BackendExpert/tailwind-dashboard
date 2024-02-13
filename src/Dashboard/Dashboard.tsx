@@ -16,7 +16,7 @@ const Dashboard = () => {
     
   return (
     <div className="flex gap-6">
-        <div className="bg-gray-800 min-h-screen w-72 text-white px-4">
+        <div className={`bg-gray-800 min-h-screen ${menuopen? 'w-72' : 'w-16'} text-white px-4`}>
             <div className="py-3 flex justify-end">
                 <IonIcon name="menu" size="large"></IonIcon>
             </div>
