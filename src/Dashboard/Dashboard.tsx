@@ -9,9 +9,8 @@ const Dashboard = () => {
                 <IonIcon name="menu" size="large"></IonIcon>
             </div>
             <div className="mt-4 flex lflex-col pag-4 relative">
-                <div>
-                    Dashboard
-                </div>
+                <div className=""></div>
+                <h2>Dashboard</h2>
             </div>
         </div>
         <div className="p-7 text-2xl font-semibold flex-1 h-screen">
