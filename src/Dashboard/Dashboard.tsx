@@ -1,5 +1,7 @@
 import IonIcon from "@reacticons/ionicons"
 import React from "react"
+import { Link } from "react-router-dom"
+
 
 const Dashboard = () => {
 
@@ -15,6 +17,8 @@ const Dashboard = () => {
             <div className="py-3 flex justify-end">
                 <IonIcon name="menu" size="large"></IonIcon>
             </div>
+            <Link>
+            </Link>
             <div className="mt-4 flex lflex-col pag-4 relative">
                 <div className=""></div>
                 <h2>Dashboard</h2>
